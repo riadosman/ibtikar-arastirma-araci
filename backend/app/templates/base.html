@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#091328">
+<title>{% block title %}İBTİKAR Araştırma Aracı{% endblock %}</title>
+<link rel="icon" type="image/svg+xml" href="/static/brand/square_logo.svg">
+<link rel="preload" href="/static/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/static/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/panel.css"><script src="/static/panel.js" defer></script><script src="/static/search-progress.js" defer></script></head>
+{% set path = request.url.path %}
+<body class="{% block body_class %}{% endblock %}"><a class="skip" href="#content">İçeriğe geç</a>
+<header class="topbar"><div class="wrap topbar-inner"><a class="brand" href="/panel"><img src="/static/brand/white_long_logo.svg" alt="İBTİKAR" width="102" height="34"><span class="brand-product">Araştırma Aracı</span></a>
+{% if user or not config.auth_required %}<nav aria-label="Ana menü"><a href="/panel" {{ 'aria-current=page' if path == '/panel' or (path.startswith('/panel/research/') and path != '/panel/research/new') or path.startswith('/panel/candidates/') }}>Araştırmalar</a>{% if user and config.auth_required %}<a href="/panel/settings" {{ 'aria-current=page' if path == '/panel/settings' }}>Hesabım</a>{% if user.role == 'ADMIN' %}<a href="/panel/users" {{ 'aria-current=page' if path == '/panel/users' }}>Kullanıcılar</a>{% endif %}{% endif %}{% if can_edit %}<a class="nav-cta" href="/panel/research/new" {{ 'aria-current=page' if path == '/panel/research/new' }}>Yeni araştırma</a>{% endif %}{% if user and config.auth_required %}<button class="quiet" data-action="/api/v1/auth/logout" data-redirect="/panel/login">Çıkış</button>{% endif %}</nav>{% endif %}</div></header>
+<main id="content">{% block hero %}{% endblock %}<div class="wrap page"><div id="feedback" role="status" hidden></div>{% block content %}{% endblock %}</div></main>
+<footer class="site-footer"><div class="wrap"><div class="footer-brand"><img src="/static/brand/white_long_logo.svg" alt="İBTİKAR" width="78" height="26"><span>Araştırma Aracı</span></div><span class="mono">Araştır, kaynakları incele, sonuçları indir.</span></div></footer></body></html>

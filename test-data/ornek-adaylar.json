@@ -1,0 +1,147 @@
+{
+  "research": {
+    "title": "TEST — Örnek veri (silinebilir)",
+    "description": "Kurgusal adaylarla tekilleştirme, değerlendirme ve dışa aktarma testi. Kişiler gerçek değildir.",
+    "field": "Yapay Zeka",
+    "location": "İstanbul",
+    "target_type": "Konuşmacı",
+    "requested_quantity": 10,
+    "keywords": ["computer vision", "doğal dil işleme", "Arabic NLP"],
+    "notes": "Kaynaklar example.com/.org/.net (ayrılmış test alan adları).",
+    "search_language": "auto"
+  },
+  "candidates": [
+    {
+      "full_name": "Leyla Haddad",
+      "job_title": "Doçent, Bilgisayar Mühendisliği",
+      "organization": "Örnek Teknik Üniversitesi",
+      "field": "Yapay Zeka",
+      "location": "İstanbul",
+      "public_email": "leyla.haddad@example.org",
+      "bio": "Computer vision ve tıbbi görüntü işleme üzerine çalışıyor.",
+      "expertise": ["Computer Vision", "Medical Imaging"],
+      "source_url": "https://example.org/akademik/leyla-haddad",
+      "source_name": "Örnek Teknik Üniversitesi akademik profil",
+      "source_type": "university",
+      "source_evidence": "Doç. Dr. Leyla Haddad, bilgisayarlı görü laboratuvarını yönetmektedir."
+    },
+    {
+      "full_name": "Dr. Leyla Haddad",
+      "job_title": "Konuşmacı",
+      "public_email": "LEYLA.HADDAD@example.org",
+      "source_url": "https://example.com/zirve-2026/konusmacilar/leyla-haddad",
+      "source_name": "Örnek AI Zirvesi 2026 konuşmacılar",
+      "source_type": "conference",
+      "source_evidence": "Leyla Haddad, 'Görüntüden teşhise' oturumunun konuşmacısıdır."
+    },
+    {
+      "full_name": "Emre Yıldırım",
+      "job_title": "Araştırma Görevlisi",
+      "organization": "Örnek Teknik Üniversitesi",
+      "location": "İstanbul",
+      "bio": "Türkçe doğal dil işleme ve büyük dil modelleri.",
+      "expertise": ["Doğal Dil İşleme"],
+      "source_url": "https://example.org/akademik/emre-yildirim",
+      "source_name": "Örnek Teknik Üniversitesi akademik profil",
+      "source_type": "university",
+      "source_evidence": "Arş. Gör. Emre Yıldırım — Türkçe NLP grubu."
+    },
+    {
+      "full_name": "EMRE YILDIRIM",
+      "organization": "Ornek Teknik Universitesi",
+      "public_phone": "+90 212 000 00 00",
+      "source_url": "https://example.net/teknofest-2026/juri",
+      "source_name": "Örnek yarışma jüri listesi",
+      "source_type": "event",
+      "source_evidence": "Jüri: Emre Yıldırım (Örnek Teknik Üniversitesi)."
+    },
+    {
+      "full_name": "Omar Khaled",
+      "job_title": "CTO",
+      "organization": "Örnek Vision Teknoloji A.Ş.",
+      "location": "İstanbul",
+      "linkedin_url": "https://www.linkedin.com/in/omar-khaled-example",
+      "bio": "Endüstriyel görüntü işleme girişiminin kurucu ortağı ve CTO'su.",
+      "expertise": ["Computer Vision", "Edge AI"],
+      "source_url": "https://example.com/ekip/omar-khaled",
+      "source_name": "Örnek Vision ekip sayfası",
+      "source_type": "company",
+      "source_evidence": "Omar Khaled — Kurucu Ortak & CTO."
+    },
+    {
+      "full_name": "Omar Abdullah Khaled",
+      "linkedin_url": "https://tr.linkedin.com/in/omar-khaled-example/details/experience/",
+      "source_url": "https://example.net/girisim-haberleri/omar-khaled",
+      "source_name": "Örnek girişim haberleri",
+      "source_type": "news",
+      "source_evidence": "Örnek Vision'ın CTO'su Omar Abdullah Khaled yatırım turunu anlattı."
+    },
+    {
+      "full_name": "Selin Aksoy",
+      "job_title": "Veri Bilimci",
+      "organization": "Örnek Analitik",
+      "public_email": "info@example.com",
+      "linkedin_url": "https://www.linkedin.com/company/ornek-analitik-example",
+      "source_url": "https://example.com/ornek-analitik/ekip",
+      "source_name": "Örnek Analitik ekip",
+      "source_type": "company",
+      "source_evidence": "Selin Aksoy, Veri Bilimci."
+    },
+    {
+      "full_name": "Burak Demir",
+      "job_title": "Makine Öğrenmesi Mühendisi",
+      "organization": "Örnek Analitik",
+      "public_email": "info@example.com",
+      "linkedin_url": "https://www.linkedin.com/company/ornek-analitik-example",
+      "source_url": "https://example.com/ornek-analitik/ekip",
+      "source_name": "Örnek Analitik ekip",
+      "source_type": "company",
+      "source_evidence": "Burak Demir, ML Mühendisi."
+    },
+    {
+      "full_name": "Ahmed Hassan",
+      "job_title": "Profesör",
+      "organization": "Örnek Üniversitesi",
+      "location": "İstanbul",
+      "public_email": "ahmed.hassan@example.org",
+      "bio": "Arabic NLP ve makine çevirisi üzerine çalışıyor.",
+      "expertise": ["Arabic NLP", "Machine Translation"],
+      "source_url": "https://example.org/fakulte/ahmed-hassan",
+      "source_name": "Örnek Üniversitesi fakülte",
+      "source_type": "university",
+      "source_evidence": "Prof. Dr. Ahmed Hassan — Arapça doğal dil işleme."
+    },
+    {
+      "full_name": "Ahmed Hassan",
+      "job_title": "Yazılım Geliştirici",
+      "organization": "Başka Bir Şirket",
+      "location": "Ankara",
+      "public_email": "a.hassan@example.net",
+      "source_url": "https://example.net/kariyer/ahmed-hassan",
+      "source_name": "Örnek kariyer sayfası",
+      "source_type": "company",
+      "source_evidence": "Ahmed Hassan, mobil uygulama geliştiricisi (Ankara)."
+    },
+    {
+      "full_name": "سارة المصري",
+      "job_title": "باحثة في الذكاء الاصطناعي",
+      "organization": "Örnek Araştırma Merkezi",
+      "location": "İstanbul",
+      "bio": "Arabic NLP, konuşma tanıma.",
+      "expertise": ["Arabic NLP", "Speech Recognition"],
+      "source_url": "https://example.org/merkez/sara-almasri",
+      "source_name": "Örnek Araştırma Merkezi",
+      "source_type": "research_center",
+      "source_evidence": "د. سارة المصري — باحثة في معالجة اللغة العربية."
+    },
+    {
+      "full_name": "Formül Testi",
+      "job_title": "=HYPERLINK(\"https://example.com\",\"tikla\")",
+      "organization": "+Örnek Kurum",
+      "source_url": "https://example.com/formul-testi",
+      "source_name": "Dışa aktarma güvenlik testi",
+      "source_type": "test",
+      "source_evidence": "Excel/CSV'de formül olarak çalışmamalı, metin olarak görünmeli."
+    }
+  ]
+}

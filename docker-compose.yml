@@ -1,0 +1,86 @@
+name: relationship-intelligence
+
+# Settings shared by the API/panel and the worker, so both validate the same configuration.
+x-app-environment: &app-environment
+  DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-relationships}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-relationships}
+  DEMO_MODE: ${ENABLE_DEMO_DATA:-false}
+  APP_ENV: ${APP_ENV:-development}
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: 10m
+    max-file: '5'
+
+services:
+  db:
+    restart: unless-stopped
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-relationships}
+      POSTGRES_USER: ${POSTGRES_USER:-relationships}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run python scripts/init_env.py first}
+    ports:
+      - '127.0.0.1:${DB_PORT:-55432}:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB']
+      interval: 5s
+      timeout: 5s
+      retries: 15
+    logging: *logging
+
+  backend:
+    restart: unless-stopped
+    build: ./backend
+    image: relationship-intelligence-backend
+    init: true
+    env_file: .env
+    environment: *app-environment
+    # Migrations run before the single API process starts; then uvicorn replaces the shell
+    # so it receives SIGTERM and shuts down gracefully.
+    command:
+      - sh
+      - -c
+      - >-
+        alembic upgrade head && python -m app.seed &&
+        exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --no-proxy-headers
+        --timeout-graceful-shutdown 20
+    stop_grace_period: 30s
+    ports:
+      # API for n8n/automation: host loopback only.
+      - '127.0.0.1:${API_PORT:-8100}:8000'
+      # Panel: set PANEL_BIND to the server's private IP to share it on the team network.
+      - '${PANEL_BIND:-127.0.0.1}:${WEB_PORT:-3100}:8000'
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD', 'python', '-c', 'import urllib.request; urllib.request.urlopen("http://localhost:8000/health", timeout=4)']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging: *logging
+
+  worker:
+    image: relationship-intelligence-backend
+    build: ./backend
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment: *app-environment
+    command: ['python', '-m', 'app.worker']
+    # SIGTERM finishes the current source (at most FETCH_DOCUMENT_SECONDS) and requeues the job.
+    stop_grace_period: 45s
+    healthcheck:
+      test: ['CMD', 'python', '-c', 'import pathlib,time,tempfile; p=pathlib.Path(tempfile.gettempdir()) / "relationship-worker.heartbeat"; assert p.exists() and time.time()-p.stat().st_mtime < 300']
+      interval: 30s
+      timeout: 5s
+      retries: 2
+    depends_on:
+      backend:
+        condition: service_healthy
+    logging: *logging
+
+volumes:
+  postgres_data:

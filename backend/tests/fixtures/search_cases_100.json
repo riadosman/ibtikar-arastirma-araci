@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "case-001",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/Deniz-Acar",
+    "title": "Deniz Acar",
+    "html": "<html lang=\"tr\"><head><title>Deniz Acar</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Deniz Acar\", \"jobTitle\": \"CTO\", \"description\": \"Deniz Acar — CTO. Deniz Acar Deniz Acar Deniz Acar Deniz Acar Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>Deniz Acar</h1><p>Deniz Acar — CTO. Deniz Acar Deniz Acar Deniz Acar Deniz Acar Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 1",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Deniz Acar"
+    ]
+  },
+  {
+    "id": "case-002",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/Selin-Demir",
+    "title": "Selin Demir",
+    "html": "<html lang=\"tr\"><head><title>Selin Demir</title></head><body><h1>Selin Demir</h1><p>Selin Demir — Kurucu. Selin Demir Selin Demir Selin Demir Selin Demir Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 2",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Kurucu",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Selin Demir"
+    ]
+  },
+  {
+    "id": "case-003",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/Ay%C5%9Fe-Y%C4%B1ld%C4%B1z",
+    "title": "Ayşe Yıldız",
+    "html": "<html lang=\"tr\"><head><title>Ayşe Yıldız</title></head><body><h2>Doktor Ayşe Yıldız</h2><p>Ayşe Yıldız — Doktor. Ayşe Yıldız Ayşe Yıldız Ayşe Yıldız Ayşe Yıldız Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 3",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Doktor",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Ayşe Yıldız"
+    ]
+  },
+  {
+    "id": "case-004",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/Emre-Kaya",
+    "title": "Emre Kaya",
+    "html": "<html lang=\"tr\"><head><title>Emre Kaya</title></head><body><h2>Emre Kaya — CTO</h2><p>Emre Kaya — CTO. Emre Kaya Emre Kaya Emre Kaya Emre Kaya Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 4",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Emre Kaya"
+    ]
+  },
+  {
+    "id": "case-005",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/Ece-Arslan",
+    "title": "Ece Arslan",
+    "html": "<html lang=\"tr\"><head><title>Ece Arslan</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>Ece Arslan</h3><span>Kurucu</span><a href=\"/profile/Ece%20Arslan\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 5",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Kurucu",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Ece Arslan"
+    ]
+  },
+  {
+    "id": "case-006",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/Can-Aksoy",
+    "title": "Can Aksoy",
+    "html": "<html lang=\"tr\"><head><title>Can Aksoy</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"Can Aksoy\", \"jobTitle\": \"Profesör\", \"description\": \"Can Aksoy — Profesör. Can Aksoy Can Aksoy Can Aksoy Can Aksoy Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>Can Aksoy</h1><p>Can Aksoy — Profesör. Can Aksoy Can Aksoy Can Aksoy Can Aksoy Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 6",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Profesör",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Can Aksoy"
+    ]
+  },
+  {
+    "id": "case-007",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/%C4%B0pek-%C5%9Eahin",
+    "title": "İpek Şahin",
+    "html": "<html lang=\"tr\"><head><title>İpek Şahin</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"İpek Şahin\", \"jobTitle\": \"Mühendis\", \"description\": \"İpek Şahin — Mühendis. İpek Şahin İpek Şahin İpek Şahin İpek Şahin Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>İpek Şahin</h1><p>İpek Şahin — Mühendis. İpek Şahin İpek Şahin İpek Şahin İpek Şahin Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 7",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Mühendis",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "İpek Şahin"
+    ]
+  },
+  {
+    "id": "case-008",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/Ozan-G%C3%BCne%C5%9F",
+    "title": "Ozan Güneş",
+    "html": "<html lang=\"tr\"><head><title>Ozan Güneş</title></head><body><strong>8. Şef Ozan Güneş</strong><div>Ozan Güneş — Şef. Ozan Güneş Ozan Güneş Ozan Güneş Ozan Güneş Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 8",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Şef",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Ozan Güneş"
+    ]
+  },
+  {
+    "id": "case-009",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/Elif-Yal%C3%A7%C4%B1n",
+    "title": "Elif Yalçın",
+    "html": "<html lang=\"tr\"><head><title>Elif Yalçın</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Elif Yalçın\", \"jobTitle\": \"Profesör\", \"description\": \"Elif Yalçın — Profesör. Elif Yalçın Elif Yalçın Elif Yalçın Elif Yalçın Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Elif Yalçın</h1><p>Elif Yalçın — Profesör. Elif Yalçın Elif Yalçın Elif Yalçın Elif Yalçın Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 9",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Profesör",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Elif Yalçın"
+    ]
+  },
+  {
+    "id": "case-010",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/Bora-%C3%87elik",
+    "title": "Bora Çelik",
+    "html": "<html lang=\"tr\"><head><title>Bora Çelik</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Bora Çelik\", \"jobTitle\": \"CTO\", \"description\": \"Bora Çelik — CTO. Bora Çelik Bora Çelik Bora Çelik Bora Çelik Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Bora Çelik</h1><p>Bora Çelik — CTO. Bora Çelik Bora Çelik Bora Çelik Bora Çelik Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 10",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Bora Çelik"
+    ]
+  },
+  {
+    "id": "case-011",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/Alex-Morgan",
+    "title": "Alex Morgan",
+    "html": "<html lang=\"en\"><head><title>Alex Morgan</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Alex Morgan\", \"jobTitle\": \"CTO\", \"description\": \"Alex Morgan — CTO. Alex Morgan Alex Morgan Alex Morgan Alex Morgan Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>Alex Morgan</h1><p>Alex Morgan — CTO. Alex Morgan Alex Morgan Alex Morgan Alex Morgan Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 11",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Alex Morgan"
+    ]
+  },
+  {
+    "id": "case-012",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jamie-Taylor",
+    "title": "Jamie Taylor",
+    "html": "<html lang=\"en\"><head><title>Jamie Taylor</title></head><body><h1>Jamie Taylor</h1><p>Jamie Taylor — Founder. Jamie Taylor Jamie Taylor Jamie Taylor Jamie Taylor Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 12",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Founder",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Jamie Taylor"
+    ]
+  },
+  {
+    "id": "case-013",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/Robin-Clark",
+    "title": "Robin Clark",
+    "html": "<html lang=\"en\"><head><title>Robin Clark</title></head><body><h2>Doctor Robin Clark</h2><p>Robin Clark — Doctor. Robin Clark Robin Clark Robin Clark Robin Clark Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 13",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Doctor",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Robin Clark"
+    ]
+  },
+  {
+    "id": "case-014",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/Sam-Parker",
+    "title": "Sam Parker",
+    "html": "<html lang=\"en\"><head><title>Sam Parker</title></head><body><h2>Sam Parker — CTO</h2><p>Sam Parker — CTO. Sam Parker Sam Parker Sam Parker Sam Parker Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 14",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Sam Parker"
+    ]
+  },
+  {
+    "id": "case-015",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/Casey-Miller",
+    "title": "Casey Miller",
+    "html": "<html lang=\"en\"><head><title>Casey Miller</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>Casey Miller</h3><span>Founder</span><a href=\"/profile/Casey%20Miller\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 15",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Founder",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Casey Miller"
+    ]
+  },
+  {
+    "id": "case-016",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/Drew-Wilson",
+    "title": "Drew Wilson",
+    "html": "<html lang=\"en\"><head><title>Drew Wilson</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"Drew Wilson\", \"jobTitle\": \"Professor\", \"description\": \"Drew Wilson — Professor. Drew Wilson Drew Wilson Drew Wilson Drew Wilson Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>Drew Wilson</h1><p>Drew Wilson — Professor. Drew Wilson Drew Wilson Drew Wilson Drew Wilson Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 16",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professor",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Drew Wilson"
+    ]
+  },
+  {
+    "id": "case-017",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jordan-Reed",
+    "title": "Jordan Reed",
+    "html": "<html lang=\"en\"><head><title>Jordan Reed</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Jordan Reed\", \"jobTitle\": \"Engineer\", \"description\": \"Jordan Reed — Engineer. Jordan Reed Jordan Reed Jordan Reed Jordan Reed Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Jordan Reed</h1><p>Jordan Reed — Engineer. Jordan Reed Jordan Reed Jordan Reed Jordan Reed Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 17",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Engineer",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Jordan Reed"
+    ]
+  },
+  {
+    "id": "case-018",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/Avery-Scott",
+    "title": "Avery Scott",
+    "html": "<html lang=\"en\"><head><title>Avery Scott</title></head><body><strong>8. Chef Avery Scott</strong><div>Avery Scott — Chef. Avery Scott Avery Scott Avery Scott Avery Scott Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 18",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Chef",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Avery Scott"
+    ]
+  },
+  {
+    "id": "case-019",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/Blair-Evans",
+    "title": "Blair Evans",
+    "html": "<html lang=\"en\"><head><title>Blair Evans</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Blair Evans\", \"jobTitle\": \"Professor\", \"description\": \"Blair Evans — Professor. Blair Evans Blair Evans Blair Evans Blair Evans Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Blair Evans</h1><p>Blair Evans — Professor. Blair Evans Blair Evans Blair Evans Blair Evans Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 19",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professor",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Blair Evans"
+    ]
+  },
+  {
+    "id": "case-020",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/Riley-Davis",
+    "title": "Riley Davis",
+    "html": "<html lang=\"en\"><head><title>Riley Davis</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Riley Davis\", \"jobTitle\": \"CTO\", \"description\": \"Riley Davis — CTO. Riley Davis Riley Davis Riley Davis Riley Davis Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Riley Davis</h1><p>Riley Davis — CTO. Riley Davis Riley Davis Riley Davis Riley Davis Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 20",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Riley Davis"
+    ]
+  },
+  {
+    "id": "case-021",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/Lena-M%C3%BCller",
+    "title": "Lena Müller",
+    "html": "<html lang=\"de\"><head><title>Lena Müller</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Lena Müller\", \"jobTitle\": \"CTO\", \"description\": \"Lena Müller — CTO. Lena Müller Lena Müller Lena Müller Lena Müller Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>Lena Müller</h1><p>Lena Müller — CTO. Lena Müller Lena Müller Lena Müller Lena Müller Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 21",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Lena Müller"
+    ]
+  },
+  {
+    "id": "case-022",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jonas-Weber",
+    "title": "Jonas Weber",
+    "html": "<html lang=\"de\"><head><title>Jonas Weber</title></head><body><h1>Jonas Weber</h1><p>Jonas Weber — Gründer. Jonas Weber Jonas Weber Jonas Weber Jonas Weber Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 22",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Gründer",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Jonas Weber"
+    ]
+  },
+  {
+    "id": "case-023",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/Mia-Fischer",
+    "title": "Mia Fischer",
+    "html": "<html lang=\"de\"><head><title>Mia Fischer</title></head><body><h2>Arzt Mia Fischer</h2><p>Mia Fischer — Arzt. Mia Fischer Mia Fischer Mia Fischer Mia Fischer Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 23",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Arzt",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Mia Fischer"
+    ]
+  },
+  {
+    "id": "case-024",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/Leon-Wagner",
+    "title": "Leon Wagner",
+    "html": "<html lang=\"de\"><head><title>Leon Wagner</title></head><body><h2>Leon Wagner — CTO</h2><p>Leon Wagner — CTO. Leon Wagner Leon Wagner Leon Wagner Leon Wagner Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 24",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Leon Wagner"
+    ]
+  },
+  {
+    "id": "case-025",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/Clara-Hoffmann",
+    "title": "Clara Hoffmann",
+    "html": "<html lang=\"de\"><head><title>Clara Hoffmann</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>Clara Hoffmann</h3><span>Gründer</span><a href=\"/profile/Clara%20Hoffmann\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 25",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Gründer",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Clara Hoffmann"
+    ]
+  },
+  {
+    "id": "case-026",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/Paul-Sch%C3%A4fer",
+    "title": "Paul Schäfer",
+    "html": "<html lang=\"de\"><head><title>Paul Schäfer</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"Paul Schäfer\", \"jobTitle\": \"Professor\", \"description\": \"Paul Schäfer — Professor. Paul Schäfer Paul Schäfer Paul Schäfer Paul Schäfer Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>Paul Schäfer</h1><p>Paul Schäfer — Professor. Paul Schäfer Paul Schäfer Paul Schäfer Paul Schäfer Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 26",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professor",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Paul Schäfer"
+    ]
+  },
+  {
+    "id": "case-027",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/Emma-Bauer",
+    "title": "Emma Bauer",
+    "html": "<html lang=\"de\"><head><title>Emma Bauer</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Emma Bauer\", \"jobTitle\": \"Ingenieur\", \"description\": \"Emma Bauer — Ingenieur. Emma Bauer Emma Bauer Emma Bauer Emma Bauer Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Emma Bauer</h1><p>Emma Bauer — Ingenieur. Emma Bauer Emma Bauer Emma Bauer Emma Bauer Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 27",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Ingenieur",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Emma Bauer"
+    ]
+  },
+  {
+    "id": "case-028",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/Felix-Klein",
+    "title": "Felix Klein",
+    "html": "<html lang=\"de\"><head><title>Felix Klein</title></head><body><strong>8. Koch Felix Klein</strong><div>Felix Klein — Koch. Felix Klein Felix Klein Felix Klein Felix Klein Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 28",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Koch",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Felix Klein"
+    ]
+  },
+  {
+    "id": "case-029",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/Laura-Neumann",
+    "title": "Laura Neumann",
+    "html": "<html lang=\"de\"><head><title>Laura Neumann</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Laura Neumann\", \"jobTitle\": \"Professor\", \"description\": \"Laura Neumann — Professor. Laura Neumann Laura Neumann Laura Neumann Laura Neumann Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Laura Neumann</h1><p>Laura Neumann — Professor. Laura Neumann Laura Neumann Laura Neumann Laura Neumann Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 29",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professor",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Laura Neumann"
+    ]
+  },
+  {
+    "id": "case-030",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/Lukas-Richter",
+    "title": "Lukas Richter",
+    "html": "<html lang=\"de\"><head><title>Lukas Richter</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Lukas Richter\", \"jobTitle\": \"CTO\", \"description\": \"Lukas Richter — CTO. Lukas Richter Lukas Richter Lukas Richter Lukas Richter Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Lukas Richter</h1><p>Lukas Richter — CTO. Lukas Richter Lukas Richter Lukas Richter Lukas Richter Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 30",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Lukas Richter"
+    ]
+  },
+  {
+    "id": "case-031",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/Camille-Martin",
+    "title": "Camille Martin",
+    "html": "<html lang=\"fr\"><head><title>Camille Martin</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Camille Martin\", \"jobTitle\": \"CTO\", \"description\": \"Camille Martin — CTO. Camille Martin Camille Martin Camille Martin Camille Martin Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>Camille Martin</h1><p>Camille Martin — CTO. Camille Martin Camille Martin Camille Martin Camille Martin Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 31",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Camille Martin"
+    ]
+  },
+  {
+    "id": "case-032",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/Louis-Bernard",
+    "title": "Louis Bernard",
+    "html": "<html lang=\"fr\"><head><title>Louis Bernard</title></head><body><h1>Louis Bernard</h1><p>Louis Bernard — Fondateur. Louis Bernard Louis Bernard Louis Bernard Louis Bernard Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 32",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Fondateur",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Louis Bernard"
+    ]
+  },
+  {
+    "id": "case-033",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/Chlo%C3%A9-Dubois",
+    "title": "Chloé Dubois",
+    "html": "<html lang=\"fr\"><head><title>Chloé Dubois</title></head><body><h2>Médecin Chloé Dubois</h2><p>Chloé Dubois — Médecin. Chloé Dubois Chloé Dubois Chloé Dubois Chloé Dubois Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 33",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Médecin",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Chloé Dubois"
+    ]
+  },
+  {
+    "id": "case-034",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/Hugo-Laurent",
+    "title": "Hugo Laurent",
+    "html": "<html lang=\"fr\"><head><title>Hugo Laurent</title></head><body><h2>Hugo Laurent — CTO</h2><p>Hugo Laurent — CTO. Hugo Laurent Hugo Laurent Hugo Laurent Hugo Laurent Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 34",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Hugo Laurent"
+    ]
+  },
+  {
+    "id": "case-035",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/%C3%89milie-Moreau",
+    "title": "Émilie Moreau",
+    "html": "<html lang=\"fr\"><head><title>Émilie Moreau</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>Émilie Moreau</h3><span>Fondateur</span><a href=\"/profile/%C3%89milie%20Moreau\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 35",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Fondateur",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Émilie Moreau"
+    ]
+  },
+  {
+    "id": "case-036",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jules-Simon",
+    "title": "Jules Simon",
+    "html": "<html lang=\"fr\"><head><title>Jules Simon</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"Jules Simon\", \"jobTitle\": \"Professeur\", \"description\": \"Jules Simon — Professeur. Jules Simon Jules Simon Jules Simon Jules Simon Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>Jules Simon</h1><p>Jules Simon — Professeur. Jules Simon Jules Simon Jules Simon Jules Simon Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 36",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professeur",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Jules Simon"
+    ]
+  },
+  {
+    "id": "case-037",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/Manon-Lef%C3%A8vre",
+    "title": "Manon Lefèvre",
+    "html": "<html lang=\"fr\"><head><title>Manon Lefèvre</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Manon Lefèvre\", \"jobTitle\": \"Ingénieur\", \"description\": \"Manon Lefèvre — Ingénieur. Manon Lefèvre Manon Lefèvre Manon Lefèvre Manon Lefèvre Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Manon Lefèvre</h1><p>Manon Lefèvre — Ingénieur. Manon Lefèvre Manon Lefèvre Manon Lefèvre Manon Lefèvre Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 37",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Ingénieur",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Manon Lefèvre"
+    ]
+  },
+  {
+    "id": "case-038",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/Alice-Michel",
+    "title": "Alice Michel",
+    "html": "<html lang=\"fr\"><head><title>Alice Michel</title></head><body><strong>8. Chef Alice Michel</strong><div>Alice Michel — Chef. Alice Michel Alice Michel Alice Michel Alice Michel Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 38",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Chef",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Alice Michel"
+    ]
+  },
+  {
+    "id": "case-039",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/Arthur-Roux",
+    "title": "Arthur Roux",
+    "html": "<html lang=\"fr\"><head><title>Arthur Roux</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Arthur Roux\", \"jobTitle\": \"Professeur\", \"description\": \"Arthur Roux — Professeur. Arthur Roux Arthur Roux Arthur Roux Arthur Roux Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Arthur Roux</h1><p>Arthur Roux — Professeur. Arthur Roux Arthur Roux Arthur Roux Arthur Roux Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 39",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Professeur",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Arthur Roux"
+    ]
+  },
+  {
+    "id": "case-040",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/Lucie-Garnier",
+    "title": "Lucie Garnier",
+    "html": "<html lang=\"fr\"><head><title>Lucie Garnier</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Lucie Garnier\", \"jobTitle\": \"CTO\", \"description\": \"Lucie Garnier — CTO. Lucie Garnier Lucie Garnier Lucie Garnier Lucie Garnier Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Lucie Garnier</h1><p>Lucie Garnier — CTO. Lucie Garnier Lucie Garnier Lucie Garnier Lucie Garnier Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 40",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Lucie Garnier"
+    ]
+  },
+  {
+    "id": "case-041",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/Luc%C3%ADa-Garc%C3%ADa",
+    "title": "Lucía García",
+    "html": "<html lang=\"es\"><head><title>Lucía García</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Lucía García\", \"jobTitle\": \"CTO\", \"description\": \"Lucía García — CTO. Lucía García Lucía García Lucía García Lucía García Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>Lucía García</h1><p>Lucía García — CTO. Lucía García Lucía García Lucía García Lucía García Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 41",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Lucía García"
+    ]
+  },
+  {
+    "id": "case-042",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/Hugo-Fern%C3%A1ndez",
+    "title": "Hugo Fernández",
+    "html": "<html lang=\"es\"><head><title>Hugo Fernández</title></head><body><h1>Hugo Fernández</h1><p>Hugo Fernández — Fundador. Hugo Fernández Hugo Fernández Hugo Fernández Hugo Fernández Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 42",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Fundador",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Hugo Fernández"
+    ]
+  },
+  {
+    "id": "case-043",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/Sof%C3%ADa-L%C3%B3pez",
+    "title": "Sofía López",
+    "html": "<html lang=\"es\"><head><title>Sofía López</title></head><body><h2>Médico Sofía López</h2><p>Sofía López — Médico. Sofía López Sofía López Sofía López Sofía López Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 43",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Médico",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Sofía López"
+    ]
+  },
+  {
+    "id": "case-044",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/Mateo-S%C3%A1nchez",
+    "title": "Mateo Sánchez",
+    "html": "<html lang=\"es\"><head><title>Mateo Sánchez</title></head><body><h2>Mateo Sánchez — CTO</h2><p>Mateo Sánchez — CTO. Mateo Sánchez Mateo Sánchez Mateo Sánchez Mateo Sánchez Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 44",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Mateo Sánchez"
+    ]
+  },
+  {
+    "id": "case-045",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/Elena-Rodr%C3%ADguez",
+    "title": "Elena Rodríguez",
+    "html": "<html lang=\"es\"><head><title>Elena Rodríguez</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>Elena Rodríguez</h3><span>Fundador</span><a href=\"/profile/Elena%20Rodr%C3%ADguez\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 45",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Fundador",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Elena Rodríguez"
+    ]
+  },
+  {
+    "id": "case-046",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/Diego-P%C3%A9rez",
+    "title": "Diego Pérez",
+    "html": "<html lang=\"es\"><head><title>Diego Pérez</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"Diego Pérez\", \"jobTitle\": \"Profesor\", \"description\": \"Diego Pérez — Profesor. Diego Pérez Diego Pérez Diego Pérez Diego Pérez Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>Diego Pérez</h1><p>Diego Pérez — Profesor. Diego Pérez Diego Pérez Diego Pérez Diego Pérez Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 46",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Profesor",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Diego Pérez"
+    ]
+  },
+  {
+    "id": "case-047",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/Valeria-G%C3%B3mez",
+    "title": "Valeria Gómez",
+    "html": "<html lang=\"es\"><head><title>Valeria Gómez</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Valeria Gómez\", \"jobTitle\": \"Ingeniero\", \"description\": \"Valeria Gómez — Ingeniero. Valeria Gómez Valeria Gómez Valeria Gómez Valeria Gómez Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Valeria Gómez</h1><p>Valeria Gómez — Ingeniero. Valeria Gómez Valeria Gómez Valeria Gómez Valeria Gómez Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 47",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Ingeniero",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Valeria Gómez"
+    ]
+  },
+  {
+    "id": "case-048",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/Daniel-Mart%C3%ADn",
+    "title": "Daniel Martín",
+    "html": "<html lang=\"es\"><head><title>Daniel Martín</title></head><body><strong>8. Chef Daniel Martín</strong><div>Daniel Martín — Chef. Daniel Martín Daniel Martín Daniel Martín Daniel Martín Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 48",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Chef",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Daniel Martín"
+    ]
+  },
+  {
+    "id": "case-049",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/Paula-Ruiz",
+    "title": "Paula Ruiz",
+    "html": "<html lang=\"es\"><head><title>Paula Ruiz</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Paula Ruiz\", \"jobTitle\": \"Profesor\", \"description\": \"Paula Ruiz — Profesor. Paula Ruiz Paula Ruiz Paula Ruiz Paula Ruiz Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Paula Ruiz</h1><p>Paula Ruiz — Profesor. Paula Ruiz Paula Ruiz Paula Ruiz Paula Ruiz Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 49",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "Profesor",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Paula Ruiz"
+    ]
+  },
+  {
+    "id": "case-050",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/%C3%81lvaro-Torres",
+    "title": "Álvaro Torres",
+    "html": "<html lang=\"es\"><head><title>Álvaro Torres</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"Álvaro Torres\", \"jobTitle\": \"CTO\", \"description\": \"Álvaro Torres — CTO. Álvaro Torres Álvaro Torres Álvaro Torres Álvaro Torres Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>Álvaro Torres</h1><p>Álvaro Torres — CTO. Álvaro Torres Álvaro Torres Álvaro Torres Álvaro Torres Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 50",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "Álvaro Torres"
+    ]
+  },
+  {
+    "id": "case-051",
+    "category": "positive-0",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D8%A3%D8%AD%D9%85%D8%AF-%D8%AD%D8%B3%D9%86",
+    "title": "أحمد حسن",
+    "html": "<html lang=\"ar\"><head><title>أحمد حسن</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"أحمد حسن\", \"jobTitle\": \"CTO\", \"description\": \"أحمد حسن — CTO. أحمد حسن أحمد حسن أحمد حسن أحمد حسن Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}</script><h1>أحمد حسن</h1><p>أحمد حسن — CTO. أحمد حسن أحمد حسن أحمد حسن أحمد حسن Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 51",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "أحمد حسن"
+    ]
+  },
+  {
+    "id": "case-052",
+    "category": "positive-1",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D9%84%D9%8A%D9%84%D9%89-%D9%85%D8%AD%D9%85%D9%88%D8%AF",
+    "title": "ليلى محمود",
+    "html": "<html lang=\"ar\"><head><title>ليلى محمود</title></head><body><h1>ليلى محمود</h1><p>ليلى محمود — مؤسس. ليلى محمود ليلى محمود ليلى محمود ليلى محمود Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 52",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "مؤسس",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "ليلى محمود"
+    ]
+  },
+  {
+    "id": "case-053",
+    "category": "positive-2",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D8%B3%D8%A7%D8%B1%D8%A9-%D8%B9%D9%84%D9%8A",
+    "title": "سارة علي",
+    "html": "<html lang=\"ar\"><head><title>سارة علي</title></head><body><h2>طبيب سارة علي</h2><p>سارة علي — طبيب. سارة علي سارة علي سارة علي سارة علي Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 53",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "طبيب",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "سارة علي"
+    ]
+  },
+  {
+    "id": "case-054",
+    "category": "positive-3",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D8%B9%D9%85%D8%B1-%D8%AE%D8%A7%D9%84%D8%AF",
+    "title": "عمر خالد",
+    "html": "<html lang=\"ar\"><head><title>عمر خالد</title></head><body><h2>عمر خالد — CTO</h2><p>عمر خالد — CTO. عمر خالد عمر خالد عمر خالد عمر خالد Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 54",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "عمر خالد"
+    ]
+  },
+  {
+    "id": "case-055",
+    "category": "positive-4",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D9%86%D9%88%D8%B1-%D8%B3%D8%A7%D9%85%D9%8A",
+    "title": "نور سامي",
+    "html": "<html lang=\"ar\"><head><title>نور سامي</title></head><body><h1>Team</h1><div class=\"team-member\"><h3>نور سامي</h3><span>مؤسس</span><a href=\"/profile/%D9%86%D9%88%D8%B1%20%D8%B3%D8%A7%D9%85%D9%8A\">Profile</a></div></body></html>",
+    "research": {
+      "title": "Fictional case 55",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "مؤسس",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "نور سامي"
+    ]
+  },
+  {
+    "id": "case-056",
+    "category": "positive-5",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D9%8A%D9%88%D8%B3%D9%81-%D9%86%D8%A7%D8%B5%D8%B1",
+    "title": "يوسف ناصر",
+    "html": "<html lang=\"ar\"><head><title>يوسف ناصر</title></head><body><script type=\"application/ld+json\">{\"@type\": \"ProfilePage\", \"mainEntity\": {\"@type\": \"Person\", \"name\": \"يوسف ناصر\", \"jobTitle\": \"أستاذ\", \"description\": \"يوسف ناصر — أستاذ. يوسف ناصر يوسف ناصر يوسف ناصر يوسف ناصر Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}}</script><h1>يوسف ناصر</h1><p>يوسف ناصر — أستاذ. يوسف ناصر يوسف ناصر يوسف ناصر يوسف ناصر Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 56",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "أستاذ",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "يوسف ناصر"
+    ]
+  },
+  {
+    "id": "case-057",
+    "category": "positive-6",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D9%85%D8%B1%D9%8A%D9%85-%D8%B9%D8%A7%D8%AF%D9%84",
+    "title": "مريم عادل",
+    "html": "<html lang=\"ar\"><head><title>مريم عادل</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"مريم عادل\", \"jobTitle\": \"مهندس\", \"description\": \"مريم عادل — مهندس. مريم عادل مريم عادل مريم عادل مريم عادل Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>مريم عادل</h1><p>مريم عادل — مهندس. مريم عادل مريم عادل مريم عادل مريم عادل Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 57",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "مهندس",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "مريم عادل"
+    ]
+  },
+  {
+    "id": "case-058",
+    "category": "positive-7",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A3%D9%85%D9%8A%D9%86",
+    "title": "خالد أمين",
+    "html": "<html lang=\"ar\"><head><title>خالد أمين</title></head><body><strong>8. طاه خالد أمين</strong><div>خالد أمين — طاه. خالد أمين خالد أمين خالد أمين خالد أمين Fictional professional biography for automated testing only.</div></body></html>",
+    "research": {
+      "title": "Fictional case 58",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "طاه",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "خالد أمين"
+    ]
+  },
+  {
+    "id": "case-059",
+    "category": "positive-8",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D9%87%D9%86%D8%AF-%D9%81%D8%A4%D8%A7%D8%AF",
+    "title": "هند فؤاد",
+    "html": "<html lang=\"ar\"><head><title>هند فؤاد</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"هند فؤاد\", \"jobTitle\": \"أستاذ\", \"description\": \"هند فؤاد — أستاذ. هند فؤاد هند فؤاد هند فؤاد هند فؤاد Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>هند فؤاد</h1><p>هند فؤاد — أستاذ. هند فؤاد هند فؤاد هند فؤاد هند فؤاد Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 59",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "أستاذ",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "هند فؤاد"
+    ]
+  },
+  {
+    "id": "case-060",
+    "category": "positive-9",
+    "fictional": true,
+    "url": "https://fixture.example/people/%D8%B1%D8%A7%D9%85%D9%8A-%D8%B7%D8%A7%D8%B1%D9%82",
+    "title": "رامي طارق",
+    "html": "<html lang=\"ar\"><head><title>رامي طارق</title></head><body><script type=\"application/ld+json\">[{\"@type\": \"Person\", \"name\": \"رامي طارق\", \"jobTitle\": \"CTO\", \"description\": \"رامي طارق — CTO. رامي طارق رامي طارق رامي طارق رامي طارق Fictional professional biography for automated testing only.\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"Demo Company\"}}]</script><h1>رامي طارق</h1><p>رامي طارق — CTO. رامي طارق رامي طارق رامي طارق رامي طارق Fictional professional biography for automated testing only.</p></body></html>",
+    "research": {
+      "title": "Fictional case 60",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": [
+      "رامي طارق"
+    ]
+  },
+  {
+    "id": "case-061",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/%C4%B0stanbul-M%C3%BChendis-%C4%B0%C5%9F-%C4%B0lanlar%C4%B1",
+    "title": "İstanbul Mühendis İş İlanları",
+    "html": "<html lang=\"tr\"><head><title>İstanbul Mühendis İş İlanları</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"\\u0130stanbul M\\u00fchendis \\u0130\\u015f \\u0130lanlar\\u0131\", \"description\": \"Engineer CTO Founder\"}</script><h1>İstanbul Mühendis İş İlanları</h1><p>İstanbul Mühendis İş İlanları engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 61",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-062",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Istanbul-Muhendis-Is-Ilanlari",
+    "title": "Istanbul Muhendis Is Ilanlari",
+    "html": "<html lang=\"tr\"><head><title>Istanbul Muhendis Is Ilanlari</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Istanbul Muhendis Is Ilanlari\", \"description\": \"Engineer CTO Founder\"}</script><h1>Istanbul Muhendis Is Ilanlari</h1><p>Istanbul Muhendis Is Ilanlari engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 62",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-063",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/London-Software-Job-Openings",
+    "title": "London Software Job Openings",
+    "html": "<html lang=\"en\"><head><title>London Software Job Openings</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"London Software Job Openings\", \"description\": \"Engineer CTO Founder\"}</script><h1>London Software Job Openings</h1><p>London Software Job Openings engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 63",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-064",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Engineering-Jobs-In-Istanbul",
+    "title": "Engineering Jobs In Istanbul",
+    "html": "<html lang=\"en\"><head><title>Engineering Jobs In Istanbul</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Engineering Jobs In Istanbul\", \"description\": \"Engineer CTO Founder\"}</script><h1>Engineering Jobs In Istanbul</h1><p>Engineering Jobs In Istanbul engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 64",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-065",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Berlin-Ingenieur-Stellenangebote",
+    "title": "Berlin Ingenieur Stellenangebote",
+    "html": "<html lang=\"de\"><head><title>Berlin Ingenieur Stellenangebote</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Berlin Ingenieur Stellenangebote\", \"description\": \"Engineer CTO Founder\"}</script><h1>Berlin Ingenieur Stellenangebote</h1><p>Berlin Ingenieur Stellenangebote engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 65",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "de",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-066",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Offres-Emploi-Ing%C3%A9nieur-Paris",
+    "title": "Offres Emploi Ingénieur Paris",
+    "html": "<html lang=\"fr\"><head><title>Offres Emploi Ingénieur Paris</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Offres Emploi Ing\\u00e9nieur Paris\", \"description\": \"Engineer CTO Founder\"}</script><h1>Offres Emploi Ingénieur Paris</h1><p>Offres Emploi Ingénieur Paris engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 66",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "fr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-067",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Ofertas-Empleo-Ingeniero-Madrid",
+    "title": "Ofertas Empleo Ingeniero Madrid",
+    "html": "<html lang=\"es\"><head><title>Ofertas Empleo Ingeniero Madrid</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Ofertas Empleo Ingeniero Madrid\", \"description\": \"Engineer CTO Founder\"}</script><h1>Ofertas Empleo Ingeniero Madrid</h1><p>Ofertas Empleo Ingeniero Madrid engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 67",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "es",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-068",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/%D9%88%D8%B8%D8%A7%D8%A6%D9%81-%D9%85%D9%87%D9%86%D8%AF%D8%B3-%D9%81%D9%8A-%D8%A7%D8%B3%D8%B7%D9%86%D8%A8%D9%88%D9%84",
+    "title": "وظائف مهندس في اسطنبول",
+    "html": "<html lang=\"ar\"><head><title>وظائف مهندس في اسطنبول</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"\\u0648\\u0638\\u0627\\u0626\\u0641 \\u0645\\u0647\\u0646\\u062f\\u0633 \\u0641\\u064a \\u0627\\u0633\\u0637\\u0646\\u0628\\u0648\\u0644\", \"description\": \"Engineer CTO Founder\"}</script><h1>وظائف مهندس في اسطنبول</h1><p>وظائف مهندس في اسطنبول engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 68",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "ar",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-069",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/%C4%B0stanbul-G%C3%BCncel-%C4%B0%C5%9F-F%C4%B1rsatlar%C4%B1",
+    "title": "İstanbul Güncel İş Fırsatları",
+    "html": "<html lang=\"tr\"><head><title>İstanbul Güncel İş Fırsatları</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"\\u0130stanbul G\\u00fcncel \\u0130\\u015f F\\u0131rsatlar\\u0131\", \"description\": \"Engineer CTO Founder\"}</script><h1>İstanbul Güncel İş Fırsatları</h1><p>İstanbul Güncel İş Fırsatları engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 69",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "tr",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-070",
+    "category": "negative-job-listing",
+    "fictional": true,
+    "url": "https://fixture.example/jobs/Chief-Technology-Officer-Vacancies",
+    "title": "Chief Technology Officer Vacancies",
+    "html": "<html lang=\"en\"><head><title>Chief Technology Officer Vacancies</title></head><body><script type=\"application/ld+json\">{\"@type\": \"JobPosting\", \"title\": \"Chief Technology Officer Vacancies\", \"description\": \"Engineer CTO Founder\"}</script><h1>Chief Technology Officer Vacancies</h1><p>Chief Technology Officer Vacancies engineer CTO founder chef professor</p></body></html>",
+    "research": {
+      "title": "Fictional case 70",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-071",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Atlas-Systems",
+    "title": "Atlas Systems",
+    "html": "<html lang=\"en\"><head><title>Atlas Systems</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Atlas Systems\"}</script><h1>Atlas Systems</h1><p>Atlas Systems engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 71",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-072",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Acme-Labs",
+    "title": "Acme Labs",
+    "html": "<html lang=\"en\"><head><title>Acme Labs</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Acme Labs\"}</script><h1>Acme Labs</h1><p>Acme Labs engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 72",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-073",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Global-Technology-Services",
+    "title": "Global Technology Services",
+    "html": "<html lang=\"en\"><head><title>Global Technology Services</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Global Technology Services\"}</script><h1>Global Technology Services</h1><p>Global Technology Services engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 73",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-074",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Future-Engineering-Group",
+    "title": "Future Engineering Group",
+    "html": "<html lang=\"en\"><head><title>Future Engineering Group</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Future Engineering Group\"}</script><h1>Future Engineering Group</h1><p>Future Engineering Group engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 74",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-075",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Bilgi-Teknoloji-Merkezi",
+    "title": "Bilgi Teknoloji Merkezi",
+    "html": "<html lang=\"en\"><head><title>Bilgi Teknoloji Merkezi</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Bilgi Teknoloji Merkezi\"}</script><h1>Bilgi Teknoloji Merkezi</h1><p>Bilgi Teknoloji Merkezi engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 75",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-076",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Yeni-E%C4%9Fitim-Programlar%C4%B1",
+    "title": "Yeni Eğitim Programları",
+    "html": "<html lang=\"en\"><head><title>Yeni Eğitim Programları</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Yeni E\\u011fitim Programlar\\u0131\"}</script><h1>Yeni Eğitim Programları</h1><p>Yeni Eğitim Programları engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 76",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-077",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Research-Team-Members",
+    "title": "Research Team Members",
+    "html": "<html lang=\"en\"><head><title>Research Team Members</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Research Team Members\"}</script><h1>Research Team Members</h1><p>Research Team Members engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 77",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-078",
+    "category": "negative-organization",
+    "fictional": true,
+    "url": "https://fixture.example/people/Chief-Technology-Officer",
+    "title": "Chief Technology Officer",
+    "html": "<html lang=\"en\"><head><title>Chief Technology Officer</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Organization\", \"name\": \"Chief Technology Officer\"}</script><h1>Chief Technology Officer</h1><p>Chief Technology Officer engineer CTO founder</p></body></html>",
+    "research": {
+      "title": "Fictional case 78",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-079",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Alex Morgan\", \"jobTitle\": \"CTO\"}</script><h1>Technology News</h1><p>Article by Alex Morgan</p></body></html>",
+    "research": {
+      "title": "Fictional case 79",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-080",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Jamie Taylor\", \"jobTitle\": \"CTO\"}</script><h1>Technology News</h1><p>Article by Jamie Taylor</p></body></html>",
+    "research": {
+      "title": "Fictional case 80",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-081",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Robin Clark\", \"jobTitle\": \"CTO\"}</script><h1>Technology News</h1><p>Article by Robin Clark</p></body></html>",
+    "research": {
+      "title": "Fictional case 81",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-082",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Sam Parker\", \"jobTitle\": \"CTO\"}</script><h1>Technology News</h1><p>Article by Sam Parker</p></body></html>",
+    "research": {
+      "title": "Fictional case 82",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-083",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><nav><h2>CTO Casey Miller</h2><p>Casey Miller CTO biography navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation </p></nav><h1>Welcome</h1></body></html>",
+    "research": {
+      "title": "Fictional case 83",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-084",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><nav><h2>CTO Drew Wilson</h2><p>Drew Wilson CTO biography navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation </p></nav><h1>Welcome</h1></body></html>",
+    "research": {
+      "title": "Fictional case 84",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-085",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><nav><h2>CTO Jordan Reed</h2><p>Jordan Reed CTO biography navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation </p></nav><h1>Welcome</h1></body></html>",
+    "research": {
+      "title": "Fictional case 85",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-086",
+    "category": "negative-author-or-navigation",
+    "fictional": true,
+    "url": "https://fixture.example/news",
+    "title": "Technology News",
+    "html": "<html lang=\"en\"><head><title>Technology News</title></head><body><nav><h2>CTO Avery Scott</h2><p>Avery Scott CTO biography navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation </p></nav><h1>Welcome</h1></body></html>",
+    "research": {
+      "title": "Fictional case 86",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-087",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Alex-Morgan",
+    "title": "Alex Morgan",
+    "html": "<html lang=\"en\"><head><title>Alex Morgan</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Alex Morgan\", \"jobTitle\": \"Chef\", \"description\": \"Alex Morgan is a chef who teaches cooking.\"}</script><h1>Alex Morgan</h1></body></html>",
+    "research": {
+      "title": "Fictional case 87",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-088",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jamie-Taylor",
+    "title": "Jamie Taylor",
+    "html": "<html lang=\"en\"><head><title>Jamie Taylor</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Jamie Taylor\", \"jobTitle\": \"Chef\", \"description\": \"Jamie Taylor is a chef who teaches cooking.\"}</script><h1>Jamie Taylor</h1></body></html>",
+    "research": {
+      "title": "Fictional case 88",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-089",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Robin-Clark",
+    "title": "Robin Clark",
+    "html": "<html lang=\"en\"><head><title>Robin Clark</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Robin Clark\", \"jobTitle\": \"Chef\", \"description\": \"Robin Clark is a chef who teaches cooking.\"}</script><h1>Robin Clark</h1></body></html>",
+    "research": {
+      "title": "Fictional case 89",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-090",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Sam-Parker",
+    "title": "Sam Parker",
+    "html": "<html lang=\"en\"><head><title>Sam Parker</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Sam Parker\", \"jobTitle\": \"Chef\", \"description\": \"Sam Parker is a chef who teaches cooking.\"}</script><h1>Sam Parker</h1></body></html>",
+    "research": {
+      "title": "Fictional case 90",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-091",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Casey-Miller",
+    "title": "Casey Miller",
+    "html": "<html lang=\"en\"><head><title>Casey Miller</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Casey Miller\", \"jobTitle\": \"Chef\", \"description\": \"Casey Miller is a chef who teaches cooking.\"}</script><h1>Casey Miller</h1></body></html>",
+    "research": {
+      "title": "Fictional case 91",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-092",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Drew-Wilson",
+    "title": "Drew Wilson",
+    "html": "<html lang=\"en\"><head><title>Drew Wilson</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Drew Wilson\", \"jobTitle\": \"Chef\", \"description\": \"Drew Wilson is a chef who teaches cooking.\"}</script><h1>Drew Wilson</h1></body></html>",
+    "research": {
+      "title": "Fictional case 92",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-093",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jordan-Reed",
+    "title": "Jordan Reed",
+    "html": "<html lang=\"en\"><head><title>Jordan Reed</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Jordan Reed\", \"jobTitle\": \"Chef\", \"description\": \"Jordan Reed is a chef who teaches cooking.\"}</script><h1>Jordan Reed</h1></body></html>",
+    "research": {
+      "title": "Fictional case 93",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-094",
+    "category": "negative-wrong-role",
+    "fictional": true,
+    "url": "https://fixture.example/people/Avery-Scott",
+    "title": "Avery Scott",
+    "html": "<html lang=\"en\"><head><title>Avery Scott</title></head><body><script type=\"application/ld+json\">{\"@type\": \"Person\", \"name\": \"Avery Scott\", \"jobTitle\": \"Chef\", \"description\": \"Avery Scott is a chef who teaches cooking.\"}</script><h1>Avery Scott</h1></body></html>",
+    "research": {
+      "title": "Fictional case 94",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-095",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Alex-Morgan",
+    "title": "Alex Morgan",
+    "html": "<html lang=\"en\"><head><title>Alex Morgan</title></head><body><h1>Alex Morgan</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 95",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-096",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Jamie-Taylor",
+    "title": "Jamie Taylor",
+    "html": "<html lang=\"en\"><head><title>Jamie Taylor</title></head><body><h1>Jamie Taylor</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 96",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-097",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Robin-Clark",
+    "title": "Robin Clark",
+    "html": "<html lang=\"en\"><head><title>Robin Clark</title></head><body><h1>Robin Clark</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 97",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-098",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Sam-Parker",
+    "title": "Sam Parker",
+    "html": "<html lang=\"en\"><head><title>Sam Parker</title></head><body><h1>Sam Parker</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 98",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-099",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Casey-Miller",
+    "title": "Casey Miller",
+    "html": "<html lang=\"en\"><head><title>Casey Miller</title></head><body><h1>Casey Miller</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 99",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  },
+  {
+    "id": "case-100",
+    "category": "negative-insufficient-evidence",
+    "fictional": true,
+    "url": "https://fixture.example/people/Drew-Wilson",
+    "title": "Drew Wilson",
+    "html": "<html lang=\"en\"><head><title>Drew Wilson</title></head><body><h1>Drew Wilson</h1><p>Contact our team for more information.</p></body></html>",
+    "research": {
+      "title": "Fictional case 100",
+      "field": "Technology",
+      "location": "Istanbul",
+      "target_type": "CTO",
+      "description": "",
+      "search_language": "en",
+      "requested_quantity": 1,
+      "keywords": []
+    },
+    "expected": []
+  }
+]

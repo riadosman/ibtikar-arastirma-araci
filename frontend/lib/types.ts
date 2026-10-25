@@ -1,0 +1,101 @@
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  role: string;
+  active: boolean;
+};
+export type Source = {
+  id?: string;
+  url: string;
+  name: string;
+  source_type: string;
+  source_date?: string | null;
+};
+export type Candidate = {
+  id: string;
+  research_request_id: string;
+  full_name: string;
+  headline: string | null;
+  job_title: string | null;
+  organization: string | null;
+  organization_type: string | null;
+  field: string | null;
+  location: string | null;
+  city: string | null;
+  country: string | null;
+  website: string | null;
+  linkedin_url: string | null;
+  twitter_url: string | null;
+  instagram_url: string | null;
+  public_email: string | null;
+  public_phone: string | null;
+  bio: string | null;
+  expertise: string[];
+  relevance_score: number;
+  confidence_score: number;
+  relevance_reason: string;
+  status: string;
+  notes: string;
+  is_demo: boolean;
+  sources: Source[];
+  created_at: string;
+  updated_at: string;
+};
+export type Research = {
+  id: string;
+  title: string;
+  description: string;
+  field: string;
+  location: string;
+  target_type: string;
+  requested_quantity: number;
+  keywords: string[];
+  notes: string;
+  status: string;
+  created_at: string;
+  created_by: string | null;
+  creator_name: string;
+  error: string | null;
+  stats: {
+    total: number;
+    approved: number;
+    rejected: number;
+    awaiting_review: number;
+    high: number;
+    medium: number;
+    low: number;
+  };
+};
+export type Page<T> = {
+  items: T[];
+  total: number;
+  page: number;
+  page_size: number;
+};
+export type Dashboard = {
+  active_requests: number;
+  candidates_found: number;
+  awaiting_review: number;
+  approved: number;
+  rejected: number;
+  recent_requests: Research[];
+};
+export type Settings = {
+  demo_mode: boolean;
+  search_provider: string;
+  ai_provider: string;
+  sheets_provider: string;
+  api_key_configured: boolean;
+  workspace: string;
+};
+export type ExportJob = {
+  id: string;
+  research_request_id: string;
+  format: string;
+  candidate_count: number;
+  include_all: boolean;
+  status: string;
+  detail: string | null;
+  created_at: string;
+};
